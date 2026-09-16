@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.login-box {
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  width: 320px;
+  text-align: center;
+  color: #fff;
+}
+.login-box h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #f0f0f0;
+}
+.login-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+.login-box button {
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.login-box button:hover {
+  background: #ff3b2e;
+}
+/* Hidden button for Phase 6 */
+#shadowBtn {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
